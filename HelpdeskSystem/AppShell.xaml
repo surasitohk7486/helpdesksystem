@@ -11,5 +11,8 @@
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+    <Tab Title="IT Dashboard">
+        <ShellContent ContentTemplate="{DataTemplate local:TicketListPage}" />
+    </Tab>
 
 </Shell>
