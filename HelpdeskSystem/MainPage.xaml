@@ -28,7 +28,7 @@
                 FontAttributes="Bold"
                 TextColor="#475569"/>
             <Picker
-                x:Name="TitleIput"
+                x:Name="PriorityPicker"
                 Title="Please Select"
                 BackgroundColor="White"
                 TextColor="Black">
