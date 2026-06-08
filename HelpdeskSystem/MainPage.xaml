@@ -44,7 +44,7 @@
             <Label
                 Text="Description"
                 FontAttributes="Bold"
-                TextColor="475569"/>
+                TextColor="#475569"/>
             <Editor
                 x:Name="DescriptionInput"
                 Placeholder="Enter issue details here..."
