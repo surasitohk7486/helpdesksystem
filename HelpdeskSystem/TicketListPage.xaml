@@ -14,11 +14,11 @@
                 <DataTemplate>
                     <Border StrokeShape="RoundRectangle 10" Stroke="#CBD5E1" Margin="0,5" Padding="15" BackgroundColor="White">
                         <Grid ColumnDefinitions="*, Auto" RowDefinitions="Auto, Auto" RowSpacing="5">
-                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding Title}" FontAttributes="Bold" FontSize="16" TextColor="#1E293B"/>
-                            <Label Grid.Row="1" Grid.Column="0" Text="{Binding TicketId, StringFormat='Ticket ID: #{0}'}" FontSize="12" TextColor="#64748B"/>
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding title}" FontAttributes="Bold" FontSize="16" TextColor="#1E293B"/>
+                            <Label Grid.Row="1" Grid.Column="0" Text="{Binding ticketId, StringFormat='Ticket ID: #{0}'}" FontSize="12" TextColor="#64748B"/>
                             <VerticalStackLayout Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" VerticalOptions="Center" HorizontalOptions="End" Spacing="5">
-                                <Label Text="{Binding Priority, StringFormat='Priority: {0}'}" FontAttributes="Bold" FontSize="12" TextColor="#EF4444"/>
-                                <Label Text="{Binding Status, StringFormat='Status: {0}'}" FontAttributes="Bold" FontSize="12" TextColor="#2563EB"/>
+                                <Label Text="{Binding priority, StringFormat='Priority: {0}'}" FontAttributes="Bold" FontSize="12" TextColor="#EF4444"/>
+                                <Label Text="{Binding status, StringFormat='Status: {0}'}" FontAttributes="Bold" FontSize="12" TextColor="#2563EB"/>
                             </VerticalStackLayout>
                         </Grid>
                     </Border>

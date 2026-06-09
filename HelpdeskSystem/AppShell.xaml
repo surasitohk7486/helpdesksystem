@@ -7,12 +7,16 @@
     Shell.FlyoutBehavior="Flyout"
     Title="HelpdeskSystem">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    <Tab Title="IT Dashboard">
-        <ShellContent ContentTemplate="{DataTemplate local:TicketListPage}" />
-    </Tab>
+    <TabBar>
+
+        <Tab Title="Home">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+
+        <Tab Title="IT Dashboard">
+            <ShellContent ContentTemplate="{DataTemplate local:TicketListPage}" />
+        </Tab>
+
+    </TabBar>
 
 </Shell>

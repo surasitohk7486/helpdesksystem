@@ -17,7 +17,7 @@ namespace HelpdeskSystem
             if (_database != null)
                 return;
 
-            string dbpatch = Path.Combine(FileSystem.AppDataDirectory, "Helpdesk.db");
+            string dbpatch = @"D:\ProjectResume\Helpdesk.db";
 
             _database = new SQLiteAsyncConnection(dbpatch);
 
